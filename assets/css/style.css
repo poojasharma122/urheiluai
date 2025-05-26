@@ -254,6 +254,7 @@ span.gold {
     padding: 0.9375rem 1.1rem;
     overflow: hidden;
     align-items: center;
+    clip-path: polygon(24% 0, 88% 0, 100% 0, 100% 77%, 100% 100%, 0 100%, 0 80%, 0 30%, 7% 0) !important;
 }
 
 .butn::after,
