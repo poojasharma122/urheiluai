@@ -682,6 +682,7 @@ span.gold {
 }
 .signup_form_sec form {
     height: 100%;
+    width: 100%;
 }
 
 .wrapper {
@@ -706,7 +707,7 @@ span.gold {
 .login-box {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 550px;
     margin: 0 auto;
     height: auto;
     background: transparent;
