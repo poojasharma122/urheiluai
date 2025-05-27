@@ -24,28 +24,10 @@ AOS.init({
 });
 // AOS JS End
 
-// Slider JS Start
-$('.single-item-slider').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  autoplay:true,});
-// Slider JS Start
 
-	// Read More Functionality JS Start
-// jQuery (with document ready handler)
-$(document).ready(function() {
-  $('.subpage-readmore-btn').click(function(e) {
-      e.preventDefault();
-      var $this = $(this);
-      var $content = $this.closest('.hot_cards_content').find('.hot_exp_content');      
-      $content.slideToggle(500, function() {
-          if ($content.is(':visible')) {
-              $this.text('Read Less');
-          } else {
-              $this.text('Read More');
-          }
-      });
-  });
+// Loader JS Start
+window.addEventListener('load', function () {
+    document.getElementById('loader').style.display = 'none';
+    document.querySelector('.content').style.display = 'block';
 });
-// Read More Functionality JS end
+// Loader JS Start
