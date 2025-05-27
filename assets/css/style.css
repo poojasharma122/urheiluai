@@ -246,13 +246,15 @@ span.gold {
 }
 
 .bg_dark {
-    background-color: #0c0c0c;
+    background-color: #303030;
 }
 
 .text_white {
     color: #fff;
 }
-
+.text_red{
+color: #f70106;
+}
 .aoshide {
     overflow: hidden;
 }
@@ -547,8 +549,11 @@ span.gold {
     padding: 1.25rem;
     box-shadow: #f70106 0px 2px 8px 0px;
     border-radius: 0.625rem;
+    transition: 0.1s all ease-in-out;
 }
-
+.main-feature:hover{
+    transform: translateY(-2px);
+}
 .main-feature-bg {
     background: #000;
 }
@@ -557,8 +562,24 @@ span.gold {
     margin-bottom: 10px;
     list-style-type: disc;
     margin-left: 16px;
+    font-size: 1.1rem;
+}
+.home_btm_cards p {
+    color: #fff;
+    font-size: 1.1rem;
+}
+.home_btm_cards ol li {
+    color: #fff;
+}
+.home_btm_cards ol {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
+.home_btm_cards ol li p {
+  display: inline; 
+  padding-left: 10px;
+}
 /* Home Feature CSS Start */
 
 /* Home API CSS Start */
@@ -594,6 +615,7 @@ span.gold {
     box-shadow: #fff 0px 2px 10px 0px;
     transition: 0.2s all ease-in-out;
     padding: 1.2rem;
+    height: 100%;
 }
 
 .shadow-hover.rounded:hover {
@@ -614,15 +636,14 @@ span.gold {
 
 .home_btm_cards {
     padding: 1.5rem;
-    border: 1px solid #fff;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.3s all ease-in-out;
     height: 100%;
+    background: #0b0e13;
 }
 
 .home_btm_cards:hover {
-    border-color: #f70106;
     transform: translateY(-3px);
 }
 
@@ -675,11 +696,6 @@ span.gold {
     backdrop-filter: blur(15px);
 }
 
-h2 {
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
-}
 
 .input-box {
     position: relative;
@@ -902,6 +918,9 @@ h2 {
 .feature-text p {
     color: #fff;
 }
+.feature-inner .section_heading {
+    text-align: left;
+}
 .pages_loc_name {
     padding: 0.625rem;
     background: red;
@@ -940,6 +959,144 @@ h2 {
     background-color: #fff;
 }
 /* Games Pages CSS Start */
+
+/* FAQ Page CSS Start */
+.faq_feature_section .feature-text h4 {
+    color: #ffff;
+}
+.faq_icon_cards {
+    background: red;
+    padding: 1.2rem;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+}
+.faq_icon_cards_content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+.faq_icon_outer {
+    width: 100%;
+    height: 6.25rem;
+    margin-bottom: 0.9375rem;
+    overflow: hidden;
+
+}
+.faq_icon {
+    height: 100%;
+    width: 6.25rem;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* FAQ Page CSS Start */
+
+
+/* Guide Page CSS Start */
+.img_part {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_part {
+    padding: 5rem 1.875rem;
+}
+
+.text_part p {
+    font-size: 1.2rem;
+}
+
+.text_part p a {
+    color: #f70106;
+    font-weight: 500;
+}
+
+.after_banner_wrap .row {
+    background-color: #000;
+    border-top: 5px solid #f70106;
+    border-bottom: 5px solid #f70106;
+}
+
+.after_banner_wrap .row .col-lg-7 {
+    padding: 0;
+}
+.guide_feature_sec .choose-feature {
+    grid-template-columns: 1fr;
+}
+.guide_feature_sec .feature-text p {
+    color: #fff;
+    text-transform: uppercase;
+}
+/* Guide Page CSS End */
+
+/* Footer Pages CSS Start */
+.personal-page-content ul {
+    padding-left: 20px;
+}
+.personal-page-content h2 {
+    font-size: 30px;
+    line-height: 1.4;
+    color: #f70106;
+    margin-bottom: 10px;
+}
+
+.personal-page-content p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.personal-page-content h4 {
+    font-size: 20px;
+    color: #181818;
+    font-size: 20px;
+    margin-bottom: 0.9375rem;
+    line-height: 1.4;
+}
+
+.personal-page-content p a {
+    color: #f70106;
+}
+
+.personal-page-content p a:hover {
+    color: #ab8965;
+}
+
+.personal-page-content ul li {
+    list-style: none;
+    position: relative;
+}
+
+.personal-page-content ul li::before {
+    content: ".";
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+    left: -21px;
+    top: -42px;
+    font-size: 60px;
+}
+.personal-page-content {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f701066b;
+    padding-bottom: 15px;
+}
+/* Footer Pages CSS Start */
+
+
+
+
+
+
+
+
 
 
 
@@ -983,6 +1140,6 @@ h2 {
 .loader_img {
     margin-top: 3.125rem;
     width: 15rem; 
-    height: auto;
+    height: 5rem;
 }
 /* Loader CSS End*/
