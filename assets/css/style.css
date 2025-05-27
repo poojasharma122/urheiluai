@@ -680,6 +680,10 @@ span.gold {
 .signup_form_sec .section_heading {
     text-align: center;
 }
+.signup_form_sec form {
+    height: 100%;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -701,8 +705,10 @@ span.gold {
 
 .login-box {
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: auto;
     background: transparent;
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, .5);
@@ -710,12 +716,13 @@ span.gold {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(15px);
+    padding: 2.5rem 1.5rem;
 }
 
 
 .input-box {
     position: relative;
-    width: 310px;
+    width: 100%;
     margin: 30px 0;
     border-bottom: 1px solid #fff;
 }
@@ -1198,6 +1205,7 @@ span.gold {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 9999;
 }
 
@@ -1232,6 +1240,8 @@ span.gold {
     margin-top: 3.125rem;
     width: 15rem;
     height: 5rem;
+    object-fit: contain;
+    object-position: center;
 }
 
 /* Loader CSS End*/
