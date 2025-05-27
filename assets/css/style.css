@@ -980,4 +980,9 @@ h2 {
     text-align: center;
     padding: 20px;
 }
+.loader_img {
+    margin-top: 3.125rem;
+    width: 15rem; 
+    height: auto;
+}
 /* Loader CSS End*/
