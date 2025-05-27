@@ -624,6 +624,7 @@ span.gold {
     transition: 0.2s all ease-in-out;
     padding: 1.2rem;
     height: 100%;
+    background: #0b0e13;
 }
 
 .shadow-hover.rounded:hover {
@@ -650,7 +651,7 @@ span.gold {
     overflow: hidden;
     transition: 0.3s all ease-in-out;
     height: 100%;
-    background: #0b0e13;
+    box-shadow: #f70106 0px 3px 8px;
 }
 
 .home_btm_cards:hover {
@@ -676,7 +677,9 @@ span.gold {
     background-color: rgba(0 0 0/40%);
     background-blend-mode: multiply;
 }
-
+.signup_form_sec .section_heading {
+    text-align: center;
+}
 .wrapper {
     display: flex;
     justify-content: center;
