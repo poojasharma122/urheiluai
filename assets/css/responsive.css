@@ -163,6 +163,12 @@
     .img_part {
         height: 17.33rem;
     }
+    .footer_pages_brick{
+        overflow-x: scroll;
+    }
+    .footer_pages_brick table {
+    min-width: 50rem;
+}
 }
 
 
