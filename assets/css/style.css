@@ -489,7 +489,11 @@ span.gold {
     justify-content: center;
 }
 
-
+.hero-content p {
+    color: #f70106;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 /* Hero Section CSS End */
 
@@ -1044,7 +1048,6 @@ span.gold {
     height: 100%;
     width: 6.25rem;
     margin: 0 auto;
-    border-radius: 1.25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1098,7 +1101,6 @@ span.gold {
 
 .guide_feature_sec .feature-text p {
     color: #fff;
-    text-transform: uppercase;
 }
 
 .get_link a {
