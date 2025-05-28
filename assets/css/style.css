@@ -1125,6 +1125,14 @@ span.gold {
 
 /* Guide Page CSS End */
 
+/* Who We Are CSS Start */
+.who_we_are_feature .choose-feature {
+    margin-top: 0;
+}
+/* Who We Are CSS Start */
+
+
+
 /* Footer Pages CSS Start */
 .personal-page-content ul {
     padding-left: 20px;
