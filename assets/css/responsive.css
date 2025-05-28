@@ -97,6 +97,10 @@
     .pages_loc_name {
         font-size: 1rem;
     }
+
+    .img_part {
+        height: 20.33rem;
+    }
 }
 
 
@@ -147,6 +151,9 @@
         font-size: 1.3rem;
     }
 
+    .img_part {
+        height: 17.33rem;
+    }
 }
 
 
@@ -209,13 +216,6 @@
         padding: 2.5rem 1rem;
     }
 
-    .main-feature {
-        text-align: center;
-    }
-
-    .feature-text-image {
-        margin: 20px auto;
-    }
 
     .faq_icon {
         width: 5.25rem;
@@ -227,6 +227,27 @@
 
     .feature-text h4 {
         font-size: 1.2rem;
+    }
+
+    .guide_get_started .feature-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .guide_table_sec table th,
+    .guide_table_sec table td {
+        font-size: 1.1rem;
+    }
+
+    .img_part {
+        height: 15.33rem;
+    }
+
+    .text_part p {
+        font-size: 1.1rem;
+    }
+
+    .personal-page-content h2 {
+        font-size: 1.5rem;
     }
 }
 
@@ -256,6 +277,17 @@
         grid-template-columns: 1fr;
     }
 
+    .guide_table_sec table th,
+    .guide_table_sec table td {
+        font-size: 1rem;
+    }
+
+    .text_part p {
+        font-size: 1rem;
+    }
+    .personal-page-content h4 {
+    font-size: 1.1rem;
+}
 }
 
 @media screen and (max-width:400px) {
