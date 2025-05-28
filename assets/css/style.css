@@ -677,9 +677,11 @@ span.gold {
     background-color: rgba(0 0 0/40%);
     background-blend-mode: multiply;
 }
+
 .signup_form_sec .section_heading {
     text-align: center;
 }
+
 .signup_form_sec form {
     height: 100%;
     width: 100%;
@@ -1104,18 +1106,23 @@ span.gold {
     margin: 0 auto;
     border-collapse: collapse;
 }
-.guide_table_sec table th, .guide_table_sec table td {
+
+.guide_table_sec table th,
+.guide_table_sec table td {
     border: 1px solid #fff;
     padding: 0.625rem;
     color: #fff;
     font-size: 1.3rem;
 }
-.guide_table_sec table th{
+
+.guide_table_sec table th {
     color: #f70106;
 }
+
 .guide_get_started .section_heading {
     font-size: 2rem;
 }
+
 /* Guide Page CSS End */
 
 /* Footer Pages CSS Start */
@@ -1238,12 +1245,12 @@ span.gold {
 }
 
 .loader_img {
-    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
     width: 15rem;
     height: 5rem;
- background-position: center;
- background-repeat: no-repeat;
- background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* Loader CSS End*/
