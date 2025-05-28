@@ -677,7 +677,9 @@ span.gold {
     background-color: rgba(0 0 0/40%);
     background-blend-mode: multiply;
 }
-
+.signup_sec_wrap {
+    padding: 0 1.25rem;
+}
 .signup_form_sec .section_heading {
     text-align: center;
 }
@@ -698,6 +700,7 @@ span.gold {
 .form_para {
     color: #fff;
     text-align: center;
+    margin-top: 15px;
 }
 
 @keyframes animateBg {
@@ -718,7 +721,7 @@ span.gold {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     padding: 2.5rem 1.5rem;
 }
 
@@ -966,7 +969,9 @@ span.gold {
 .football_img3 {
     background-color: #fff;
 }
-
+.football_img4 ,.football_img2 {
+    background-color: #fff;
+}
 .football_img5 {
     background-color: #0b265d;
 }
