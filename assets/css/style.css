@@ -1197,6 +1197,24 @@ span.gold {
     border-radius: 0.625rem;
 }
 
+.footer_pages_brick table{
+    width: 100%;
+    max-width: 60.25rem;
+    border-collapse: collapse;
+}
+.footer_pages_brick table th,
+.footer_pages_brick table td {
+    border: 1px solid #fff;
+    padding: 0.625rem;
+    color: #fff;
+    font-size: 1.3rem;
+    width: max-content;
+}
+
+.footer_pages_brick table th {
+    color: #f70106;
+}
+
 /* Footer Pages CSS Start */
 
 
