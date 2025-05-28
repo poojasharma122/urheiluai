@@ -1,3 +1,9 @@
+@media screen and (max-width:1399px){
+    .below_bnr_content p {
+    max-width: 600px;
+}
+}
+
 @media screen and (max-width:1199px) {
     html {
         font-size: 15px;
@@ -6,6 +12,9 @@
     .pages_feature_section .choose-feature {
         grid-template-columns: 1fr 1fr;
     }
+        .below_bnr_content p {
+    max-width: 500px;
+}
 }
 
 @media screen and (max-width:991px) {
@@ -249,6 +258,9 @@
     .personal-page-content h2 {
         font-size: 1.5rem;
     }
+    .below_bnr_content p {
+    max-width: 400px;
+}
 }
 
 
@@ -287,6 +299,9 @@
     }
     .personal-page-content h4 {
     font-size: 1.1rem;
+}
+.below_bnr_content p {
+    max-width: 320px;
 }
 }
 

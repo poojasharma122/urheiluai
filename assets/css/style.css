@@ -511,6 +511,8 @@ span.gold {
 .below_bnr_content p {
     color: #fff;
     font-size: 1.4rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* After Banner CSS End */
