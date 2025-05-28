@@ -1241,8 +1241,9 @@ span.gold {
     margin-top: 3.125rem;
     width: 15rem;
     height: 5rem;
-    object-fit: contain;
-    object-position: center;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
 }
 
 /* Loader CSS End*/
