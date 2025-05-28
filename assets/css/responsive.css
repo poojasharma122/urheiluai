@@ -102,14 +102,19 @@
 
     .footer_logo_sec {
         text-align: center;
+        margin-bottom: 4rem;
     }
 
     .social_profile ul li a {
         width: 45px;
         height: 45px;
     }
-
-
+.guide_table {
+    overflow-x: scroll;
+}
+.guide_table_sec table {
+    min-width: 46.66rem;
+}
 }
 
 
